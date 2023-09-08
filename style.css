@@ -1,19 +1,19 @@
 @font-face {
-    font-family : "KopubWorldDotumLight";
-    src : url("/Users/iyunju/Documents/website/KopubWorld Dotum_Pro Light.otf") format("opentype");
+    font-family : "NanumSquareR";
+    src : url("./NanumSquareR.otf") format("opentype");
+    src : url("./NanumSquareR.ttf") format("truetype");
+    src : url("./NanumSquareOTF_acR.otf") format("opentype");
+    src : url("./NanumSquare_acR.ttf") format("truetype");
     font-weight : normal;
 }
 
 @font-face {
-    font-family : "KopubWorldDotumMedium";
-    src : url("/Users/iyunju/Documents/website/KopubWorld Dotum_Pro Medium.otf") format("opentype");
-    font-weight : medium;
-}
-
-@font-face {
-    font-family : "KopubWorldDotumBold";
-    src : url("/Users/iyunju/Documents/website/KopubWorld Dotum_Pro Bold.otf") format("opentype");
-    font-weight : Bold;
+    font-family : "NanumSquareB";
+    src : url("./NanumSquareB.otf") format("opentype");
+    src : url("./NanumSquareB.ttf") format("truetype");
+    src : url("./NanumSquareOTF_acB.otf") format("opentype");
+    src : url("./NanumSquare_acB.ttf") format("truetype");
+    font-weight : normal;
 }
 
 @keyframes fadein {
@@ -96,7 +96,7 @@ body {
 }
 
 .text {
-    font-family: "KopubWorldDotumBold";
+    font-family: "NanumSquareB";
     font-size: 1em;
     text-align: center;
     margin-top: 20%;
@@ -117,13 +117,13 @@ hr {
     text-align: center; }
 
 .strtitle {
-    font-family: "KopubWorldDotumBold";
+    font-family: "NanumSquareB";
     font-size: 0.8em;
     margin-top: 5%;
 }
 
 .strtext {
-    font-family: "KopubWorldDotumLight";
+    font-family: "NanumSquareR";
     font-size: 0.8em;
     margin-top: 2.5%;
     margin-left: 20%;
