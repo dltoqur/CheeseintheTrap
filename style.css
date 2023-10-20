@@ -1,131 +1,45 @@
 @font-face {
-    font-family : "NanumSquareR";
-    src : url("./NanumSquareR.otf") format("opentype");
-    src : url("./NanumSquareR.ttf") format("truetype");
-    src : url("./NanumSquareOTF_acR.otf") format("opentype");
-    src : url("./NanumSquare_acR.ttf") format("truetype");
-    font-weight : normal;
+    font-family: "AppleSDGothicNeoR00-01";
+    src: url("AppleSDGothicNeoR00-01.otf") format("opentype");
 }
 
-@font-face {
-    font-family : "NanumSquareB";
-    src : url("./NanumSquareB.otf") format("opentype");
-    src : url("./NanumSquareB.ttf") format("truetype");
-    src : url("./NanumSquareOTF_acB.otf") format("opentype");
-    src : url("./NanumSquare_acB.ttf") format("truetype");
-    font-weight : normal;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeinup {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
-}
-
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+html {
+    font-family: "AppleSDGothicNeoR00-01";
+    font-size: 62.5%;
+}
+
 body {
-    background-color: #e3e3e3;
+    background-color: RGB(248, 248, 242);
 }
 
-#cheese {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.all {
-        animation: fadeinup 3s;
-        -webkit-animation: fadeinup 3s;
-}
-
-.halfR {
-    position: relative;
-    background-color: white;
-    min-width: 100vw;
-    min-height: 50vw;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    margin-bottom: 0px;
-}
-
-.background {
-    background-attachment: fixed;
-    background-color: white;
-    width: 100vw;
-    min-height: 100vh;
-}
-
-.marbg {
-    background-color: white;
-    width: 100vw;
-    min-height: 100px;   
-}
-
-.container {
+.brice {
     position: absolute;
     top: 50%;
-    display : flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width : 100vw;
+    left: 50%;
+    transform: translate(-25%, -50%);
+
+    font-size: 1.5rem;
 }
 
-.profile {
-    text-align: center;
+.cheese {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 1.5rem;
 }
 
-.text {
-    font-family: "NanumSquareB";
-    font-size: 2em;
-    text-align: center;
-    margin-top: 20%;
-    
+ul {
+    list-style-type: none;
+    font-size: 1rem;
 }
 
-hr {
-    width : 10%;
-    height : 5px;
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.story {
-    text-align: center; }
-
-.strtitle {
-    font-family: "NanumSquareB";
-    font-size: 1em;
-    margin-top: 5%;
-}
-
-.strtext {
-    font-family: "NanumSquareR";
-    font-size: 0.8em;
-    margin-top: 2.5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
+a:link {
+    text-decoration: none;
+  }
